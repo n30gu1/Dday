@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B23F71C62317E3CC00932B8F /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23F71C52317E3CC00932B8F /* TableViewCell.swift */; };
+		B24A71B62317D27F0099A644 /* NavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B24A71B52317D27F0099A644 /* NavigationViewController.swift */; };
 		B25817DB2313E88C007D3A42 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B25817DA2313E88C007D3A42 /* AppDelegate.swift */; };
 		B25817E02313E88C007D3A42 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B25817DE2313E88C007D3A42 /* Main.storyboard */; };
 		B25817E32313E88C007D3A42 /* Dday.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B25817E12313E88C007D3A42 /* Dday.xcdatamodeld */; };
@@ -19,6 +21,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B23F71C52317E3CC00932B8F /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		B24A71B52317D27F0099A644 /* NavigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewController.swift; sourceTree = "<group>"; };
 		B25817D72313E88C007D3A42 /* Dday.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dday.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B25817DA2313E88C007D3A42 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B25817DF2313E88C007D3A42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -71,6 +75,8 @@
 				B25817E12313E88C007D3A42 /* Dday.xcdatamodeld */,
 				B25817EF2313ED67007D3A42 /* DdayListTableViewController.swift */,
 				B29D9AB92316AC6D00F0C0BB /* NewDdayViewController.swift */,
+				B24A71B52317D27F0099A644 /* NavigationViewController.swift */,
+				B23F71C52317E3CC00932B8F /* TableViewCell.swift */,
 			);
 			path = Dday;
 			sourceTree = "<group>";
@@ -156,10 +162,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				B25817E32313E88C007D3A42 /* Dday.xcdatamodeld in Sources */,
+				B23F71C62317E3CC00932B8F /* TableViewCell.swift in Sources */,
 				B25817DB2313E88C007D3A42 /* AppDelegate.swift in Sources */,
 				B25817F02313ED67007D3A42 /* DdayListTableViewController.swift in Sources */,
 				B29D9ABA2316AC6D00F0C0BB /* NewDdayViewController.swift in Sources */,
 				B29D9ABC2316BB5800F0C0BB /* CoreDataModule.swift in Sources */,
+				B24A71B62317D27F0099A644 /* NavigationViewController.swift in Sources */,
 				B25817F32313F039007D3A42 /* DateModule.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
