@@ -21,4 +21,7 @@ class TableViewCell: UITableViewCell {
         // Configure the view for the selected state
     }
 
+    @IBOutlet var ddayName: UILabel!
+    @IBOutlet var ddayDate: UILabel!
+    @IBOutlet var ddayDays: UILabel!
 }

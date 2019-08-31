@@ -28,10 +28,11 @@ class CoreDataModule {
         }
     }
     
-    func addNewDday(_ title: String?, _ date: Date?) {
+    func addNewDday(_ title: String?, _ date: Date?, _ startFromDayOne: Bool) {
         let newDday = Dday(context: mainContext)
         newDday.title = title
         newDday.date = date
+        newDday.startFromDayOne = startFromDayOne
         
         saveContext()
     }

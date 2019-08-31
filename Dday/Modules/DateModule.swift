@@ -24,24 +24,3 @@ extension Date {
         return self.compare(with: date, only: component) == 0
     }
 }
-
-//let formatter = { () -> DateFormatter in
-//    let formatter = DateFormatter()
-//    formatter.dateFormat = "yyyy-MM-dd HH:mm:ss"
-//    return formatter
-//}
-//let f = formatter()
-
-//class Dday {
-//    var title: String
-//    var date: Date
-//
-//    init(title: String, date: Date?) {
-//        self.title = title
-//        self.date = date!
-//    }
-//
-//    static var dummyDdayList = [
-//        Dday(title: "project start", date: f.date(from: "2019-08-18 00:00:00"))
-//    ]
-//}
