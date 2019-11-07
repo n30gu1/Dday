@@ -21,6 +21,13 @@ class NewDdayViewController: UIViewController, UITextFieldDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        if #available(iOS 13.0, *) {
+            if self.traitCollection.userInterfaceStyle == .dark {
+                self.view.backgroundColor = UIColor.black
+            } else {
+                self.view.backgroundColor = UIColor.white
+            }
+        }
         formatter.dateFormat = "yyyy년 M월 d일"
         startDayLabel.text = formatter.string(from: date)
         titleTextField.delegate = self
